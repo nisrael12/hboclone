@@ -1,4 +1,4 @@
-import Link from 'next/Link'
+import Link from 'next/link'
 const PosterView = (props) => {
 
     const loopComp = (comp, digit) => {

@@ -1,4 +1,4 @@
-import Link from 'next/Link'
+import Link from 'next/link'
 const FeaturedMedia = (props) => {
     return(
         <div className="featured-media">
