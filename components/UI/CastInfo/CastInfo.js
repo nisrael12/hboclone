@@ -1,3 +1,5 @@
+import Link from 'next/Link'
+
 const CastInfo = (props) => {
     return(
         <div className="cast-info">

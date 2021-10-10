@@ -1,3 +1,5 @@
+import Link from 'next/Link'
+
 const Account = (props) => {
 
     const loopComp = (comp, digit) => {
@@ -50,12 +52,12 @@ const Account = (props) => {
 
             <div className="account__menu">
                 <ul className="account__main">
-                    <li><a href="/" className="active">My List</a></li>
+                    <li><Link href="/" className="active">My List</Link></li>
                 </ul>
                 <div className="side-nav__divider"/>
                 <ul className="account__main">
-                    <li><a href="/">Account</a></li>
-                    <li><a href="/">Sign Out</a></li>
+                    <li><Link href="/">Account</Link></li>
+                    <li><Link href="/">Sign Out</Link></li>
                 </ul>
             </div>
         </div>
