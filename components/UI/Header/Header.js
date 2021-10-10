@@ -1,5 +1,6 @@
 import Account from "../Account/Account"
 import SearchModal from "../SearchModal/SearchModal"
+import Link from 'next/Link'
 
 const Header = (props) => {
     return(<>

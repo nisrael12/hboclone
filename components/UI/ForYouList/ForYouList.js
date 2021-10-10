@@ -1,3 +1,5 @@
+import Link from 'next/Link'
+
 const ForYouList = (props) => {
 
     const loopComp = (comp, digit) => {

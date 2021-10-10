@@ -1,3 +1,4 @@
+import Link from 'next/Link'
 const JustAdded = (props) => {
 
     const loopComp = (comp, digit) => {
