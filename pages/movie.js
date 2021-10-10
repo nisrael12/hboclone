@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/Link'
 import MainLayout from '../components/Layouts/MainLayout'
 import CastInfo from '../components/UI/CastInfo/CastInfo'
 import FeaturedMedia from '../components/UI/FeaturedMedia/featuredMedia'
