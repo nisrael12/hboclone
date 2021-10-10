@@ -8,7 +8,7 @@ export default function Home() {
         <div className="login-user__top">
           <div className="login-user__logo" />
           <span className="login-user__title">
-            Who is watching?
+            Who is watching??
           </span>
         </div>
 
