@@ -1,17 +1,17 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import AuthCheck from '../components/AuthCheck'
 import MainLayout from '../components/Layouts/MainLayout'
 import CastInfo from '../components/UI/CastInfo/CastInfo'
 import FeaturedMedia from '../components/UI/FeaturedMedia/featuredMedia'
-import ForYouList from '../components/UI/ForYouList/ForYouList'
-import JustAdded from '../components/UI/JustAdded/JustAdded'
-import PosterView from '../components/UI/PosterView/PosterView'
+import MediaRow from '../components/UI/MediaRow/MediaRow'
+
 
 export default function Movie() {
-  return (
+  return AuthCheck(
       <MainLayout>
         <FeaturedMedia />
-        <PosterView />
+        <MediaRow title="More Like This" type="small-v" />
         <CastInfo />
         
       </MainLayout>
